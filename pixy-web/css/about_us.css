@@ -1,0 +1,128 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;;
+    background-color: #F6F6F6;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.language_en {
+    text-align: left;
+}
+.language_ar {
+    text-align: right;
+}
+.language_ar .direction {
+    direction: rtl;
+}
+.main {
+	width:100%;
+	position: relative;
+	height:100%;
+}
+.logo_img {
+  width: 5.05rem;
+  height: 3.55rem;
+	background-size: 100%;
+	position: absolute;
+	top:1.8rem;
+	left:50%;
+	margin-left: -2.525rem;
+}
+.pix_version {
+	color:#9B9B9B;
+	font-size: 0.7rem;
+	position: absolute;
+	top:5.95rem;
+	left:50%;
+	width:1.8rem;
+	margin-left: -0.9rem;
+	height:1.25rem;
+	line-height: 1.25rem;
+  font-weight: 600;
+}
+.jump_label {
+	position:absolute;
+	top: 8.45rem;
+	width: 100%;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+	background-color: #fff;
+	
+}
+.jump2 {
+    top: 19rem;
+}
+.pl {
+    padding-left: 0.8rem;
+}
+.language_ar .pl {
+    padding-right: 0.8rem;
+}
+.label {
+    border-bottom: 1px solid #F0F0F0;
+    color:#333;
+    font-size: 0.8rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+    font-weight: 400;
+}
+.last_label {
+	border-bottom: none;
+}
+.arrow-right { 
+  width: 0.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top:0.8rem;
+  right: 0.8rem;
+  background: url(/static/images/ic_next1.png) no-repeat;
+  background-size: cover;
+} 
+.language_ar .arrow-right { 
+  width: 0.5rem;
+  height: 0.8rem;
+  position: absolute;
+  top:0.8rem;
+  left: 0.8rem;
+  background: url(/static/images/ic_next_a.png) no-repeat;
+  background-size: cover;
+} 
+footer {
+	position: fixed;
+  bottom: 1.1rem;
+  width:4.2rem;
+  left:50%;
+  margin-left: -2.1rem;
+	color:#9B9B9B;
+	font-size: 0.65rem;
+  font-weight: 400;
+}
+
+#progress {
+    position:fixed;
+    height: 2px;
+    background:#fff;
+    width: 100%;
+}
+#progress span {
+    position:absolute;
+    height:2px;
+    border-radius: 4px;
+    width:0;
+    top: 0;
+    left: 0;
+    background-color: #2085c5;
+}
+
+
+
+
+
+
+
+

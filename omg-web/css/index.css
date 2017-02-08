@@ -1,0 +1,143 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    background-color: #fff;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+html, body, div, p, form, input, textarea, span, img, iframe, ul, ol, li, b, em, i, a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.main {
+    width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    min-height: 720px;
+}
+.omg_logo {
+    width: 180px;
+    height: 60px;
+    margin-top: 100px;
+}
+.text1 {
+    width: 100%;
+    font-size: 44px;
+    color: #36434D;
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0.78;
+}
+.text2 {
+    width: 100%;
+    font-size: 44px;
+    color: #36434D;
+    font-weight: 300;
+    margin-top: 5px;
+    opacity: 0.78;
+    -webkit-font-smoothing: antialiased;
+}
+.download_store {
+    width: 622px;
+    height: 80px;
+    padding: 0 9px 0;
+    margin-top: 58px;
+}
+.iPhone_download, .android_download {
+    width: 282px;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(98,108,116,0.78);
+    float: left;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.iPhone_download:hover, .android_download:hover {
+    border: 2px solid #626C74;
+}
+.iPhone_download {
+    margin-right: 50px;
+    
+}
+.content {
+    text-align: left;
+    margin-left: 82px;
+    margin-top: 16px;
+    font-size: 20px;
+    color: #36434D;
+}
+.download_logo {
+    width: 36px;
+    height: 44px;
+    position: absolute;
+    top: 20px;
+    left: 26px;
+}
+.content1 {
+    font-weight: 300;
+}
+.content2 {
+    font-weight: 500;
+    margin-top: 4px;
+}
+.download_apk {
+    display: block;
+    width: 623px;
+    height: 80px;
+    line-height: 80px;
+    margin: 30px auto 0;
+    background-color: #36434D;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0.94;
+}
+.download_apk:hover {
+    opacity: 1;
+}
+.click_btn {
+    position: absolute;
+    bottom: 40px;
+    left: 8px;
+}
+.click_btn a {
+    color: #36434D;
+    font-size: 14px;
+    opacity: 0.78;
+}
+.click_btn a:hover {
+    opacity: 1;
+}
+.click_Home {
+    font-weight: bold;
+    margin-right: 40px;
+    color: #36434D;
+    font-size: 14px;
+}
+.click_policy {
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+

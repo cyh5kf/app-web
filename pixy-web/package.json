@@ -1,0 +1,17 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build1": "node mutiple_language/buildI18nProperties multipleLanguageActivity",
+    "build2": "node mutiple_language/buildI18nProperties multipleLanguageApp",
+    "lessc": "node_modules/less/bin/lessc "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.1",
+    "node-xlsx": "^0.7.1"
+  }
+}

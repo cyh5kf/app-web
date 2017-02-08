@@ -1,0 +1,112 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    color: #36434D;
+    background-color: #fff;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+html, body, div, p, form, input, textarea, span, img, iframe, ul, ol, li, b, em, i, a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    width:100%;
+    height:68px;
+    box-shadow: 0 1px 3px #d4d4d4;
+    position: relative;
+    border-bottom: 1px solid #d4d4d4;
+}
+.nav_bar .wrap {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 65.6%;
+    height:30px;
+    line-height: 30px;
+    margin-left: -32.8%;
+    margin-top: -15px;
+    overflow: hidden;
+}
+.logo {
+    width:89px;
+    height:30px;
+    float: left;
+    cursor: pointer;
+}
+.logo img {
+    width:89px;
+    height:30px;
+}
+.click_btn {
+    overflow: hidden;
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.click_btn a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #36434D;
+    opacity: 0.78;
+}
+.click_btn a:hover {
+    opacity: 1;
+}
+.click_Home {
+    margin-right: 40px;
+    font-weight: 400;
+    font-weight: 300;
+}
+.click_policy {
+    font-weight: bold;
+}
+.content {
+    width:760px;
+    margin: 70px auto 0;
+}
+.title {
+    font-size: 24px;
+    width: 720px;
+    text-align: center;
+    font-weight: bold;
+}
+.email {
+    color: #4285F4;
+}
+.common_word {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    opacity: 0.78;
+}
+.text_top {
+    margin-top: 35px;
+}
+.head_common {
+    font-size: 16px;
+    font-weight: bold;
+}
+.head_top {
+    margin-top: 59px;
+}
+.bottom_distance {
+    padding-bottom: 30px;
+}
+.black_bold {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+

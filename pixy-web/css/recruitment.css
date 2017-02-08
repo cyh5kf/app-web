@@ -1,0 +1,328 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    height: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+li {
+    list-style: none;
+}
+input, textarea {
+    outline:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contain {
+    width:100%;
+    max-width: 620px;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+}
+.language_en {
+    text-align: left;
+}
+.language_ar {
+    text-align: right;
+}
+.language_ar input {
+    text-align: right;
+}
+.language_ar textarea {
+    text-align: right;
+}
+.language_ar .direction {
+    direction: rtl;
+}
+.red_star {
+    color: red;
+}
+.message_content {
+    padding: 1.1rem 0 1.5rem;
+    width: 89.333%;
+    margin: 0 auto;
+}
+.message_title {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.text {
+    color: #333;
+    font-size: 0.85rem;
+    line-height: 1.05rem;
+}
+.picture {
+    width: 100%;
+    height: 9.15rem;
+    display: block;
+    padding: 0.75rem 0 0.75rem;
+}
+.text_title {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.form_bg {
+    background-color: #FFFCFC;
+    border-top: 1px solid #e5e5e5;
+}
+.form_content {
+    position: relative;
+    padding: 1.5rem 0 2rem;
+    width: 84%;
+    margin: 0 auto;
+}
+.ic_arrow {
+    width: 1.5rem;
+    height: 0.9rem;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -0.75rem;
+}
+.form_title {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+.input_style {
+    // width: 14.85rem;
+    width: 94.3%;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    color: #333;
+}
+.form_input {
+    padding: 0.5rem 0.4rem 0.5rem;
+    height: 1.25rem;
+}
+.textarea_input {
+    height: 10.55rem;
+    resize: none;
+    line-height: 1rem;
+    padding: 0.4rem 0.4rem 0.4rem;
+}
+.gender_contain {
+    margin-bottom: 1rem;
+}
+
+.language_en .radio_title {
+    color: #999;
+    font-size: 0.8rem; 
+    margin-right: 0.9rem;
+}
+.language_ar .radio_title {
+    color: #999;
+    font-size: 0.8rem; 
+    margin-left: 0.9rem;
+}
+.language_en .male {
+    margin-right: 0.9rem;
+}
+.language_ar .male {
+    margin-left: 0.9rem;
+}
+
+.radio_title_star{
+    display: none;
+}
+
+.language_ar .radio_title_star{
+    float: right;
+    display: block;
+    color: #999;
+    font-size: 0.8rem;
+    margin-left: 0.1rem;
+    margin-top: 3px;
+}
+
+.ic_gender {
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+}
+.on {
+    background: url(/static/images/soma_message/ic_choose_gender_on.png) no-repeat;
+    background-size: 0.85rem 0.85rem;
+}
+.off {
+    background: url(/static/images/soma_message/ic_choose_gender_off.png) no-repeat;
+    background-size: 0.85rem 0.85rem;
+}
+.warn {
+    background: url(/static/images/soma_message/ic_choose_gender_check.png) no-repeat;
+    background-size: 0.85rem 0.85rem;
+}
+.gender {
+    color: #333;
+    font-size: 0.8rem;
+    padding-left: 1.4rem; 
+    position: relative;
+}
+.mr_bottom {
+    margin-bottom: 1.6rem;
+}
+.form_title2 {
+    color: #000;
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.input_container {
+    position: relative;
+}
+.error_tip {
+    font-size: 0.7rem;
+    color: #F24D5B;
+    position: absolute;
+}
+.language_en .email_tip {
+    left: 0rem;
+    top: 2.6rem;
+}
+.language_ar .email_tip {
+    right: 0.5rem;
+    top: 2.6rem;
+}
+.language_en .length_tip {
+    left: 0rem;
+    bottom: -1rem;
+}
+.language_ar .length_tip {
+    right: 0.5rem;
+    bottom: -1rem;
+    width: 80%;
+}
+.btn_submit {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    background-color: #F24D5B;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+}
+.form_input::-webkit-input-placeholder { 
+    color:#D3D3D3; 
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0;
+    font-family: Helvetica,Arial,sans-serif !important;
+}
+.form_input::-moz-placeholder { 
+    color:#D3D3D3 !important; 
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0;
+    font-family: Helvetica,Arial,sans-serif!important;
+}
+.form_input:-moz-placeholder { 
+    color:#D3D3D3 !important; 
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0;
+    font-family: Helvetica,Arial,sans-serif!important;
+}
+.blue_color {
+    color: #007AFF;
+}
+.popUp_contain  {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+.popUp {
+    position: fixed;
+    top: 9.5rem;
+    left: 50%;
+    width: 13.5rem;
+    margin-left: -6.75rem;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.popUp .text {
+    width: 11.1rem;
+    padding: 1rem 1.2rem 0.95rem;
+    border-bottom: 1px solid #ebebeb;
+    color: #000;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.btn_cancel, .btn_yes {
+    float: left;
+    font-size: 0.85rem;
+    color: #0076FF;
+    width: 6.7rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+}
+.btn_cancel {
+    border-right: 1px solid #ebebeb;
+}
+.btn_yes {
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.successTip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.ic_success {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0 auto;
+    margin-top: 6.5rem;
+    border-radius: 50%;
+    display: block;
+}
+.success_text {
+    color: #414141;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+

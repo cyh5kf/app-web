@@ -1,0 +1,272 @@
+body {
+    font-family: San Francisco,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    background: url("/static/images/bg_web_share_min.png") no-repeat;
+    background-size: cover;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+.main {
+	width:18.75rem;
+    margin:0 auto;
+    text-align: center;
+}
+.download_link {
+    height:3.5rem;
+    background-color: #FAFAFA;
+    position: relative;
+    text-decoration: none;
+}
+.download_tip {
+    text-align: center;
+    padding-top: 0.4rem;
+    color:#333;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+.logo_evaluate {
+    background:url(/static/images/logo_evaluate.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left:0.5rem;
+    top:0.45rem;
+    width:2.1rem;
+    height:2.6rem;
+}
+.arrow-right { 
+  background:url(/static/images/ic_next1.png) no-repeat;
+  background-size: cover;
+  width: 0.5rem;
+  height: 0.8rem;
+  position: absolute;
+  right:0.75rem;
+  top:1.45rem;
+}
+.black_bg {
+    text-align: center;
+    position: relative;
+}
+.logo {
+    margin-top: 3.75rem;
+    width:4.28rem;
+    height:1.6rem;
+    background-size: 100%;
+}
+.text {
+    margin-top: 2rem;
+    color:#fff;
+    opacity:0.8;
+    font-size: 0.85rem;
+    position: relative;
+    text-align: center;
+}
+.text>p {
+    line-height: 1.3rem;
+    padding: 0 1.5rem 0;
+    letter-spacing:0.5px;
+    font-weight: 400;
+}
+.pc_style>p {
+    font-weight: 300;
+}
+.personal_inf {
+    position: relative;
+    display:inline-block;
+    margin-top: 1.5rem;
+    height: 1.75rem;
+}
+.personal_right {
+    padding-left: 2.3rem;
+    color:#fff;
+    text-align: left;
+}
+.avatar {
+    width:1.5rem;
+    height:1.5rem;
+    position: absolute;
+    left:0rem;
+    top:0rem;
+    background-size: 100%;
+    border: 3px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+}
+.personal_right .name {
+    opacity: 0.7;
+    font-size: 0.75rem;
+    white-space:nowrap;  
+}
+.personal_right .pixy_id {
+    opacity: 0.6;
+    font-size: 0.55rem;
+    margin-top: 0.15rem;
+}
+.copyright {
+    color:#666666;
+    font-size: 0.55rem;
+    position: fixed;
+    bottom: 1.1rem;
+    width:4.2rem;
+    left:50%;
+    margin-left: -2.1rem;
+}
+
+
+
+
+.logo_web {
+    margin-top: 3.5rem;
+}
+.btn_download {
+    margin-top: 1.2rem;
+    text-align:center;
+    overflow: hidden;
+}
+.inline {
+    display: inline-block;
+}
+.btn_download img {
+    width:7rem;
+    height:2.1rem;
+    background-size: 100%;
+}
+.download_tip_web {
+    color:#fff;
+    opacity:0.8;
+    font-weight: 300;
+}
+.pc_show {
+    margin-top: 3.85rem;
+}
+
+.btn_Playstore {
+    background:url(/static/images/btn_Playstore_new.png) no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    float:left;
+    width:141px;
+    height:42px;
+    cursor: pointer;
+}
+.btn_appstore {
+    background:url(/static/images/btn_appstore_new.png) no-repeat;
+    background-size: cover;
+    float:left;
+    width:141px;
+    height:42px;
+    cursor: pointer;
+}
+.join_live {
+    display:block;
+    width:7.1rem;
+    height:2.1rem;
+    line-height: 2.1rem;
+    margin:2.5rem auto 0;
+    border:1px solid #F24D5B;
+    border-radius: 4px;
+    background-color:transparent;
+    color:#F24D5B;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+
+
+/*talker活动提示下载页面*/
+
+.contain {
+    width:100%;
+    max-height: 640px;
+    margin:0 auto;
+    text-align: center;
+}
+// .appstore_content {
+//     margin-top: 2rem;
+// }
+
+// .playstore_content {
+//     margin-top: 0.8rem;
+// }
+
+// .download_appstore {
+//     background:url(/static/images/btn_appstore_new.png) no-repeat;
+//     background-size: cover;
+//     width:8.1rem;
+//     height:2.4rem;
+//     cursor: pointer;
+//     display:inline-block;
+// }
+// .download_Playstore {
+//     background:url(/static/images/btn_Playstore_new.png) no-repeat;
+//     background-size: cover;
+//     width:8.1rem;
+//     height:2.4rem;
+//     cursor: pointer;
+//     display:inline-block;
+// }
+
+.talker_logo {
+    margin-top: 5.8rem;
+    width: 5.7rem;
+    height: 2.3rem;
+    background-size: 100%;
+}
+
+.talker_text {
+    padding: 0 2.2rem 0!important;
+}
+
+.text_talker {
+    margin-top: 0.85rem;
+    font-size: 0.9rem;
+}
+
+.language_ar .direction {
+    direction: rtl;
+}
+
+.download_btn {
+    width:8rem;
+    height:2.2rem;
+    margin:2rem auto 0;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #FFE200;
+}
+.download_btn .content {
+    display: inline-block;
+    margin-top: 0.6rem;
+    position: relative;
+    font-weight: 400;
+    margin-left: 1.2rem;
+    letter-spacing: 0.03rem;
+}
+.ic_downloadArrow {
+    display:inline-block;
+    width:0.7rem;
+    height:0.85rem;
+    background: url(/static/images/talker/ic_file_download_black_3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:0.05rem;
+    left:-1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+

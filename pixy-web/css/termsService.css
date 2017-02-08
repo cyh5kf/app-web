@@ -1,0 +1,142 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif ;
+}
+*{
+	margin:0;
+	padding:0;
+}
+em {
+	font-style: normal;
+}
+.main {
+	width:100%;
+}
+.title {
+	color:#333;
+	font-size: 0.9rem;
+	margin-top: 1.4rem;
+	width:100%;
+	text-align: center;
+	letter-spacing: -0.36px;
+	font-weight: 400;
+}
+.effective {
+	color:#9B9B9B;
+	font-size: 0.6rem;
+	margin-top: 0.25rem;
+	width:100%;
+	text-align: center;
+	letter-spacing: -0.24px;
+	font-weight: 300;
+}
+.text1 {
+	margin-top: 1rem;
+}
+.common_word {
+	color:#333;
+	font-size: 0.7rem;
+	font-weight: 300;
+	padding:0 0.75rem 0;
+}
+
+.head_common {
+	color:#000;
+	font-size: 0.8rem;
+	letter-spacing: -0.39px;
+	padding:0 0.75rem 0;
+	font-weight: 400;
+}
+.head1 {
+	margin-top: 1.5rem;
+}
+.text_top {
+	margin-top: 0.5rem;
+}
+.small_head {
+	padding:0;
+}
+.head_top {
+	margin-top: 1rem;
+}
+.question {
+	margin-top: 3rem;
+	padding-bottom: 1.5rem;
+}
+.email {
+	color:#007AFF;
+}
+.bottom_distance {
+	padding-bottom: 1.5rem;
+}
+.underline {
+	text-decoration: underline;
+	color:#000;
+	font-weight: 400;
+}
+.bold {
+	font-weight: 600;
+}
+.black_bold {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.dot {
+	overflow: hidden;
+}
+.dot span {
+    padding-left: 0.55rem;
+    display: block;
+}
+.dot i {
+	width: 0.25rem;
+	height:0.25rem;
+	border-radius: 50%;
+	background-color: #000;
+	display:block;
+	float: left;
+    margin-top: 0.3rem;
+}
+
+
+.contact_content {
+    width: 17.25rem;
+    margin:2.05rem auto 0;
+    color: #333;
+}
+.contact_title {
+    font-size: 1.1rem;
+    width:7.3rem;
+    text-align: left;
+}
+.contact_head {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    line-height: 1.1rem;
+}
+.contact_text {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+.head_top1 {
+    margin-top: 1.5rem;
+}
+.contact_content .email {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
