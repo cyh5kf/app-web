@@ -1,0 +1,141 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    background: -moz-linear-gradient(top, #FD1269 0%, #FEE60C 100%);
+    background:-webkit-gradient(linear,  left top, left bottom, from(#FD1269), to(#FEE60C)); 
+    background: -webkit-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: -o-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: -ms-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: linear-gradient(to bottom, #FD1269 0%,#FEE60C 100%);
+    background-attachment:fixed;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.web_download {
+	margin-left: -450px;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    min-height: 720px;
+    left: 50%;
+    /*right: 15%;
+    display: flex!important;*/
+    width: 900px;
+    /*flex-direction: row;
+    align-items: center;
+    align-content: center;
+    white-space: nowrap;*/
+    
+}
+.web_download .content {
+    min-height: 601px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -300px;
+}
+.iphone_img {
+    width:444px;
+    height:601px;
+    float:right;
+    background:url(../images/ic_iphone.png) no-repeat;
+    background-size: cover;
+}
+.copyright {
+    position: absolute;
+    bottom: 25px;
+    left:50%;
+    width:84px;
+    margin-left: -50px;
+    color: #555;
+    font-size: 12px;
+    letter-spacing: 0.17px;
+}
+.section_left {
+    width:254px;
+    height: 601px;
+    float:left;
+}
+.applogo {
+    width:151px;
+    height: 151px;
+    margin-top:9px;
+}
+.pixy_logo {
+    margin-top: 23px;
+    width:201px;
+    height:80px;
+}
+.pixy_text {
+    color:#fff;
+    font-size: 14px;
+    margin-top: 6px;
+    /*margin-top: 8px;*/
+    letter-spacing: 0.36px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+#btn_appstore {
+    display: block;
+    margin:48px auto 24px;
+    /*margin:58px auto 52px;*/
+    cursor: pointer;
+    width: 203px;
+    height: 60px;
+    background:url(../images/ic_appstore_2x.png) no-repeat;
+    background-size: cover;
+}
+#btn_playstore {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 203px;
+    height: 60px;
+    background:url(../images/ic_playstore.png) no-repeat;
+    background-size: cover;
+}
+.label {
+    width: 254px;
+    margin: 52px auto 0;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.label a {
+    text-decoration: none;
+    cursor:pointer;
+    color:#555;
+    font-size: 14px;
+    letter-spacing: 0.22px;
+}
+.label span {
+    display: inline-block;
+    width:1px;
+    height:12px;
+    background-color: #666;
+}
+.marginRight {
+    margin-right: 14px;
+}
+.marginBothside {
+    margin:0 14px 0;
+}
+.marginLeft {
+    margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

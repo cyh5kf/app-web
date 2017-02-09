@@ -1,0 +1,173 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    font-weight: 200;
+    background-color: #161616;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.main {
+	width:18.75rem;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.download_link {
+    height:3.5rem;
+    background-color: #FAFAFA;
+    position: relative;
+    text-decoration: none;
+}
+.download_tip {
+    text-align: center;
+    padding-top: 0.4rem;
+    color:#333;
+    font-family: myriad pro;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    letter-spacing: -0.17px;
+}
+.download_link img {
+    position: absolute;
+    left:0.5rem;
+    top:0.45rem;
+    width:2.1rem;
+    height:2.6rem;
+    background-size: 100%;
+}
+.arrow-right { 
+  width: 0.45rem;
+  height: 0.45rem;
+  overflow:hidden;
+  zoom: 1;
+  position: absolute;
+  border-right: 2px solid #A5A7AA;
+  border-top: 2px solid #A5A7AA;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: #fff;
+  right:0.75rem;
+  top:1.45rem;
+}
+.black_bg {
+    text-align: center;
+    position: relative;
+}
+.logo {
+    margin-top: 3.75rem;
+    width:4.28rem;
+    height:1.6rem;
+    background-size: 100%;
+}
+.text {
+    margin-top: 2rem;
+    color:#fff;
+    opacity:0.8;
+    font-size: 0.85rem;
+    font-weight: 300;
+    position: relative;
+}
+.text>p {
+    line-height: 1.3rem;
+}
+.personal_inf {
+    width:8rem;
+    height:1.75rem;
+    position: relative;
+    top:3.6rem;
+    left:50%;
+    margin-left: -3.2rem;
+    position: absolute;
+}
+.personal_right {
+    padding-left: 2.3rem;
+    color:#fff;
+    text-align: left;
+}
+.avatar {
+    width:1.5rem;
+    height:1.5rem;
+    position: absolute;
+    left:0rem;
+    top:0rem;
+    background-size: 100%;
+    border: 3px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+}
+.personal_right .name {
+    opacity: 0.7;
+    font-size: 0.75rem;
+}
+.personal_right .pixy_id {
+    opacity: 0.6;
+    font-size: 0.55rem;
+    margin-top: 0.15rem;
+}
+.copyright {
+    color:#666666;
+    font-size: 0.55rem;
+    position: fixed;
+    bottom: 1.1rem;
+    width:4.2rem;
+    left:50%;
+    margin-left: -1.25rem;
+}
+
+
+
+
+.logo_web {
+    margin-top: 3.5rem;
+}
+.btn_download {
+    margin-top: 1.2rem;
+    padding:0 1.8rem 0;
+    overflow: hidden;
+}
+.btn_download img {
+    width:7rem;
+    height:2.1rem;
+    background-size: 100%;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.download_tip_web {
+    padding-top: 2.5rem;
+    color:#fff;
+    opacity:0.8;
+}
+.btn_Playstore {
+    margin-left: 1rem;
+    float:left;
+}
+.btn_appstore {
+    float:left;
+}
+.join_live {
+    display:block;
+    width:7.1rem;
+    height:2.1rem;
+    line-height: 2.1rem;
+    margin:5.75rem auto 0;
+    border:1px solid #F24D5B;
+    border-radius: 4px;
+    background-color:transparent;
+    color:#F24D5B;
+    font-weight: 300;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+

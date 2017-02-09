@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "tv.pixy.tv",
+    "sha256_cert_fingerprints": ["B2:19:2B:9A:97:32:8E:00:E8:D2:7C:0A:7D:25:E1:AE:D8:DA:56:36:F0:DF:5B:89:DC:D2:E8:A5:2A:6B:C8:EF"]
+  }
+}]

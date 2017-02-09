@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <meta property="og:title" content="PIXY" />
+    <meta property="og:site_name" content="PIXY" />
+    <meta property="og:image" content="https://pixy.tv/images/ic_applogo.png" />
+    <meta property="og:description" content="Live stream, chat and be a star." />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@pixymessenger" />
+    <meta property="twitter:title" content="PIXY Messenger" />
+    <meta property="twitter:description" content="Live stream, chat and be a star." />
+    <meta property="twitter:image" content="https://pixy.tv/images/ic_applogo.png" />
+    <meta property="al:ios:app_store_id" content="1122622681" />
+    <meta property="al:ios:app_name" content="PIXY" />
+    <!-- <meta name="apple-itunes-app" content="app-id=1122622681" /> -->
+
+    <title>PIXY.TV</title>
+    <script src="js/font_lct.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/webDownload.css">
+    <link rel="stylesheet" type="text/css" href="css/phoneDownload.css">
+</head>
+
+<body>
+   <div class="web_download" style="display:none">
+       <div class="content">
+           <div class="section_left">
+                <div class="fill2"></div>
+                <img class="applogo" src="images/ic_applogo_2x.png">
+                <div class="fill3"></div>
+                <img class="pixy_logo" src="images/ic_pixy_2x.png">
+                <div class="pixy_text">Live stream, chat and be a star.</div>
+                <div class="fill4"></div>
+                <a class="btn_appstore" href="https://itunes.apple.com/app/id1122622681">
+                    <img src="images/ic_appstore_2x.png">
+                </a>
+                <!-- <a href="https://d.soma.im/invite/2">
+                    <img class="btn_playstore" src="images/ic_playstore.png">
+                </a> -->
+                <div class="fill5"></div>
+                <div class="label">
+                    <a class="marginRight" href="terms.html">Terms</a>
+                    <span></span>
+                    <a class="marginBothside" href="privacy.html">Policy</a>
+                    <span></span>
+                    <a class="marginLeft" href="contact.html">Contact</a>        
+                </div>
+            </div>
+            <div class="fill_center"></div>
+            <img src="images/ic_iphone.webp" class="iphone_img">
+       </div>
+       
+       <div class="copyright">© PIXY 2016</div>
+   </div>
+
+
+   <div class="phone_download" style="display:none">
+      <div class="main">
+        <div class="log_box">
+            <img src="images/ic_applogo.png" class="logo">
+        </div>
+        <div class="bind_box">
+            <img src="images/ic_pixy_bg.png" class="bind">
+        </div>
+        <div class="iphone_box">
+            <img src="images/download_phone_min.png" class="ic_iphone">
+        </div>
+      </div>
+        
+      <div class="download_area">
+          <div class="download_btn">
+              <span class="content"><i></i>Download</span>
+          </div>
+          <p class="phone_copyright">© PIXY 2016</p>
+      </div>
+
+    </div>
+
+
+   <script type="text/javascript">
+     var ua = navigator.userAgent;
+     if (ua.indexOf("Android") != -1 || ua.match(/iPhone/i) || ua.match(/iPod/i) || ua.match(/iPad/i)) { // || ua.match(/iPad/i)
+          document.querySelector(".web_download").style.display = "none";
+          document.querySelector(".phone_download").style.display = "block";
+      } else {
+          document.querySelector(".web_download").style.display = "block";
+          document.querySelector(".phone_download").style.display = "none";
+      }
+
+      document.querySelector(".download_btn").onclick = function() {
+          if (navigator.userAgent.match(/iPhone/i)
+                  || navigator.userAgent.match(/iPad/i)
+                  || navigator.userAgent.match(/iPod/i)) {
+              var redirected = getProperty("app.store.redirected");
+              if (redirected == null) {
+                  setProperty("app.store.redirected", "1");
+              }
+              window.location = "https://itunes.apple.com/app/id1122622681";
+          } 
+          // else {
+          //     var redirected = getProperty("google.play.redirected");
+          //     if (redirected == null) {
+          //         setProperty("google.play.redirected", "1");
+          //     }
+          //     window.location = "https://d.soma.im/invite/2";
+          // }
+      };
+
+      function getProperty(name) {
+          var prefix = name + "=";
+          var allCookies = document.cookie.split (';');
+          for(var i = 0; i < allCookies.length; i++) {
+              var item = allCookies[i].replace (/^\s*-/, "");
+              if (item.indexOf (prefix) == 0) {
+                  return item.substring (prefix.length, item.length);
+              }
+          }
+          return null;
+      }
+
+      function setProperty(name, value) {
+          var toExpire = new Date();
+          if (value == null) {
+              value = "";
+              toExpire.setTime (new Date().getTime () - 24 * 3600 * 1000);
+          } else {
+              toExpire.setTime (new Date().getTime () + 3 * 24 * 3600 * 1000);
+          }
+          document.cookie = name + "=" + value
+                  + "; expires=" + toExpire.toGMTString ()
+                  + "; path=/";
+      }
+   </script>
+   
+</body>
+
+</html>

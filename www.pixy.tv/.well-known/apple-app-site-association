@@ -1,0 +1,15 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "J8C48TWX42.tv.pixy.live",
+				"paths": [ "*" ]
+			},
+			{
+				"appID": "G9YP23BXQL.com.instanza.pixy",
+				"paths": [ "*" ]
+			}
+		]
+	}
+}

@@ -1,0 +1,106 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    font-weight: 300;
+    background: -moz-linear-gradient(top, #FD1269 0%, #FEE60C 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FD1269), color-stop(100%,#FEE60C));
+    background: -webkit-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: -o-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: -ms-linear-gradient(top, #FD1269 0%,#FEE60C 100%);
+    background: linear-gradient(to bottom, #FD1269 0%,#FEE60C 100%);
+    background-attachment:fixed;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.main {
+	width:952px;
+    height:601px;
+    margin:141px auto 141px;
+    position: relative;
+    text-align: center;
+}
+.section_right img {
+    width:444px;
+    height:601px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.copyright {
+    position: absolute;
+    bottom:-106px;
+    left:50%;
+    width:84px;
+    margin-left: -50px;
+    color: #666;
+    font-size: 14px;
+}
+.section_left {
+    width:254px;
+    height:576px;
+}
+.applogo {
+    width:151px;
+    height:151px;
+    margin:9px auto 0;
+}
+.pixy_logo {
+    margin-top: 23px;
+    width:251px;
+    height:96px;
+}
+.pixy_text {
+    color:#fff;
+    font-size: 17px;
+    margin-top: 13px;
+    letter-spacing: 0.45px;
+}
+.btn_appstore {
+    width:203px;
+    height:60px;
+    margin:48px auto 24px;
+    cursor: pointer;
+}
+.btn_playstore {
+    width:203px;
+    height:60px;
+    margin:0 auto 52px;
+    cursor: pointer;
+}
+.label {
+    width: 260px;
+    margin: 0 auto;
+}
+.label a {
+    text-decoration: none;
+    cursor:pointer;
+    color:#333;
+    font-size: 18px;
+}
+.label span {
+    display: inline-block;
+    width:1px;
+    height:12px;
+    background-color: #333;
+}
+.marginRight {
+    margin-right: 20px;
+}
+.marginBothside {
+    margin:0 20px 0;
+}
+.marginLeft {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <title>CONTACT US</title>
+    <script src="js/font_lct.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/terms.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="nav_bar">
+        <div class="wrap">
+          <a href="/" class="logo">
+            <img src="images/ic_mouth.png">
+          </a>
+          <ul class="tab_list">
+            <li onclick="myClick('community')">Community</li>
+            <li onclick="myClick('terms')">Terms</li>
+            <li onclick="myClick('privacy')">Privacy</li>
+            <li onclick="myClick('copyright')">Copyright</li>
+            <li onclick="myClick('contact')" class="activated">Contact</li>
+          </ul>
+          <img src="images/ic_dehaze.png" class="btn_list" style="display:none" onclick="clickShow()">
+        </div>
+        <ul class="phone_list" style="display:none">
+            <li onclick="myClick('community')">Community</li>
+            <li onclick="myClick('terms')">Terms</li>
+            <li onclick="myClick('privacy')">Privacy</li>
+            <li onclick="myClick('copyright')">Copyright</li>
+            <li onclick="myClick('contact')" class="last_li activated">Contact</li>
+          </ul>
+      </div>
+
+    <div class="contact_content">
+      <p class="contact_title">CONTACT US</p>
+      <!--<p class="contact_head">Product Support</p>
+      <p class="contact_text">Need help? Please feel free to contact our product support:</p>
+      <p class="email">support@pixy.tv</p>-->
+
+      <p class="contact_head">Feedback</p>
+      <p class="contact_text">Got some feedback? We would like to hear from you:</p>
+      <p class="email">feedback@pixy.tv</p>
+
+      <p class="contact_head head_top1">Business Inquiries</p>
+      <p class="contact_text">Please feel free to contact our business team:</p>
+      <p class="email">bd@pixy.tv</p>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function myClick(tab) {
+      window.location.href = tab;
+    }
+
+    // $(".btn_list").click(function() {
+    //   if($(".phone_list").css("display") == "none") {
+    //     $(".phone_list").show();  
+    //   } else {
+    //     $(".phone_list").hide();  
+    //   }
+    // })
+
+    function clickShow() {
+        var phone_list = document.querySelector(".phone_list");
+        var visible = phone_list.style.display;
+        if(visible === 'none') {
+          phone_list.style.display = 'block';
+        } else {
+          phone_list.style.display = 'none';
+        }
+      }
+
+    document.onclick = function(event) {
+      var phone_list = document.querySelector(".phone_list");
+      var btn_list = document.querySelector(".btn_list");
+      if(event.target !== btn_list) {
+          document.querySelector(".phone_list").style.display='none';
+      }
+    }
+
+    var ua = navigator.userAgent;
+      if (ua.indexOf("Android") != -1 || ua.match(/iPhone/i) || ua.match(/iPod/i) || ua.match(/iPad/i)) { // || ua.match(/iPad/i)
+          document.querySelector("#container").className = "phone_style";
+          document.querySelector(".btn_list").style.display = 'block';
+          document.querySelector(".tab_list").style.display = 'none';
+          document.body.style.backgroundColor = '#FAFAFA';
+      } else {
+          document.querySelector("#container").className = "pc_style";
+          
+      }
+  </script>
+    
+</body>
+
+</html>

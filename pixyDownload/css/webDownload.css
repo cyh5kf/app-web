@@ -1,0 +1,143 @@
+.web_download {
+	/*width:952px;*/
+    /*height:601px;*/
+    /*margin:141px auto 141px;*/
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    min-height: 720px;
+    left: 50%;
+    /*width: 65%;*/
+    margin-left: -500px;
+    min-width: 1000px;
+}
+.web_download .content {
+    position: relative;
+    /*margin-top: 141px;*/
+    height: 68.06%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -30%;
+    left: 0;
+    right: 0;
+}
+.iphone_img {
+    width:444px;
+    /*height:100%;*/
+    position: absolute;
+    top: 0px;
+    left:53.26%;
+}
+.copyright {
+    position: absolute;
+    /*bottom:-106px;*/
+    bottom: 25px;
+    left:50%;
+    width:84px;
+    margin-left: -50px;
+    color: #555;
+    font-size: 12px;
+    letter-spacing: 0.17px;
+}
+.section_left {
+    width:254px;
+    /*height:576px;*/
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fill2 {
+    height: 8.82%;
+}
+.applogo {
+    width:151px;
+    height: 151px;
+    /*height:25.12%;*/
+    /*margin:9px auto 0;*/
+    margin: 0 auto;
+}
+.fill3 {
+    height: 5.5%;
+}
+.pixy_logo {
+    /*margin-top: 23px;*/
+    /*margin-top: 33px;*/
+    width:201px;
+    height:80px;
+    /*height: 13.31%;*/
+}
+.pixy_text {
+    color:#fff;
+    font-size: 14px;
+    /*margin-top: 6px;*/
+    margin-top: 8px;
+    letter-spacing: 0.36px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+.fill4 {
+    height: 9.65%;
+}
+.btn_appstore {
+    display: block;
+    /*margin:48px auto 24px;*/
+    /*margin:58px auto 52px;*/
+    margin:0 auto;
+    cursor: pointer;
+    width: 203px;
+    height: 60px;
+    /*height: 9.98%;*/
+}
+.btn_appstore img {
+    height: 100%;
+}
+.btn_playstore {
+    width:203px;
+    height:60px;
+    margin:0 auto 52px;
+    cursor: pointer;
+}
+.fill5 {
+    height: 8.65%;
+}
+.label {
+    width: 265px;
+    margin: 0 auto;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.label a {
+    text-decoration: none;
+    cursor:pointer;
+    color:#555;
+    font-size: 14px;
+    letter-spacing: 0.22px;
+}
+.label span {
+    display: inline-block;
+    width:1px;
+    height:12px;
+    background-color: #666;
+}
+.marginRight {
+    margin-right: 14px;
+}
+.marginBothside {
+    margin:0 14px 0;
+}
+.marginLeft {
+    margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+

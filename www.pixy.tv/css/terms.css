@@ -1,0 +1,342 @@
+body {
+    font-family: San Francisco,Helvetica,sans-serif;
+    font-weight: 300;
+}
+*{
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type:none;
+}
+em {
+	font-style: normal;
+}
+/*****pc style******/
+.pc_style .nav_bar {
+    width:100%;
+    height:72px;
+    background-color: #FC3958;
+    position: relative;
+}
+.pc_style .nav_bar .wrap {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 951px;
+    height:35px;
+    line-height: 35px;
+    margin-left: -475.5px;
+    margin-top: -17.5px;
+    overflow: hidden;
+}
+.pc_style .nav_bar .logo {
+    width:50px;
+    height:35px;
+    float: left;
+    cursor: pointer;
+}
+.pc_style .tab_list {
+    overflow: hidden;
+    float: right;
+    color:#fff;
+    font-size: 18px;
+}
+.pc_style .tab_list li {
+    float:left;
+    margin-left: 55px;
+    cursor: pointer;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.pc_style .tab_list li:hover {
+    opacity: 0.8;
+}
+.pc_style .activated {
+    opacity: 0.8;
+}
+.pc_style .content {
+    width:720px;
+    margin: 75px auto 0;
+}
+.pc_style .title {
+    color: #333;
+    font-size: 24px;
+    width: 720px;
+    text-align: center;
+}
+.pc_style .effective {
+    color: #666;
+    font-size: 16px;
+    width:720px;
+    text-align: center;
+    margin-top: 8px;
+}
+.pc_style .text1 {
+    margin-top: 28px;
+}
+.pc_style .email {
+    color: #007AFF;
+}
+.pc_style .head1 {
+    margin-top: 22px;
+}
+.pc_style .common_word {
+    color: #666;
+    font-size: 16px;
+    line-height: 22px;
+}
+.pc_style .text_top {
+    margin-top: 22px;
+}
+.pc_style .head_common {
+    color:#333;
+    font-size: 20px;
+    font-weight: 400;
+}
+.pc_style .head_top {
+    margin-top: 44px;
+}
+.pc_style .question {
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.pc_style .contact_content {
+    width: 437px;
+    margin:73px auto 0;
+    color: #333;
+}
+.pc_style .contact_title {
+    font-size: 24px;
+    width:160px;
+    margin: 0 auto;
+}
+.pc_style .contact_head {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+    line-height: 22px;
+}
+.pc_style .contact_text {
+    font-size: 16px;
+    line-height: 22px;
+}
+.pc_style .head_top1 {
+    margin-top: 40px;
+}
+.pc_style .contact_content .email {
+    font-size: 16px;
+    line-height: 22px;
+}
+.pc_style .bottom_distance {
+    padding-bottom: 30px;
+}
+.pc_style .dot {
+    overflow: hidden;
+}
+.pc_style .dot span {
+    padding-left: 11px;
+    display: block;
+}
+.pc_style .dot i {
+    width: 5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: #000;
+    display:block;
+    float: left;
+    margin-top: 6px;
+}
+.pc_style .bold {
+    font-weight: 600;
+}
+
+
+
+/*****phone style******/
+.phone_style .nav_bar {
+    width:100%;
+    height:2.7rem;
+    background-color: #FC3958;
+    position: relative;
+}
+.phone_style .nav_bar .wrap {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 17.25rem;
+    height:1.3rem;
+    line-height: 1.6rem;
+    margin-left: -8.625rem;
+    margin-top: -0.65rem;
+}
+.phone_style .nav_bar .logo {
+    width:1.85rem;
+    height:1.3rem;
+    float: left;
+}
+.phone_style .nav_bar .logo img {
+    width:1.85rem;
+    height:1.3rem;
+}
+.phone_style .btn_list {
+    width: 1rem;
+    height: 0.7rem;
+    float: right;
+    margin-top: 0.3rem;
+}
+
+.phone_style .phone_list {
+    width: 18rem;
+    height: 13.8rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 0;
+    background-color: #FAFAFA;
+    color:#9B9B9B;
+    font-size: 0.85rem;
+    text-align: center;
+    padding-left: 0.75rem;
+    box-shadow: 0 1px 4px #dfdfdf;
+}
+
+.phone_style .phone_list li {
+    border-bottom:1px solid #EBEBEB;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    color: #9B9B9B;
+}
+.phone_style .phone_list .last_li {
+    border-bottom: none;
+}
+
+.phone_style .activated {
+    color: #666!important;
+}
+.phone_style .title {
+    color:#333;
+    font-size: 0.9rem;
+    margin-top: 1.4rem;
+    width:18rem;
+    text-align: left;
+    letter-spacing: -0.36px;
+    font-weight: 400;
+    padding-left: 0.75rem;
+}
+.phone_style .effective {
+    color:#9B9B9B;
+    font-size: 0.6rem;
+    margin-top: 0.25rem;
+    width:18rem;
+    text-align: left;
+    letter-spacing: -0.24px;
+    font-weight: 300;
+    padding-left: 0.75rem;
+}
+.phone_style .text1 {
+    margin-top: 1rem;
+}
+.phone_style .common_word {
+    color:#333;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding:0 0.75rem 0;
+}
+
+.phone_style .head_common {
+    color:#000;
+    font-size: 0.8rem;
+    letter-spacing: -0.39px;
+    padding:0 0.75rem 0;
+    font-weight: 400;
+}
+.phone_style .head1 {
+    margin-top: 1.5rem;
+}
+.phone_style .text_top {
+    margin-top: 0.5rem;
+}
+.phone_style .small_head {
+    padding:0;
+}
+.phone_style .head_top {
+    margin-top: 1rem;
+}
+.phone_style .question {
+    margin-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+.phone_style .email {
+    color:#007AFF;
+}
+.phone_style .bottom_distance {
+    padding-bottom: 1.5rem;
+}
+.phone_style .black_color {
+    color:#333;
+    font-weight: 600;
+}
+.phone_style .underline {
+    text-decoration: underline;
+    color:#000;
+    font-weight: 400;
+}
+.phone_style .bold {
+    font-weight: 600;
+}
+.phone_style .dot {
+    overflow: hidden;
+}
+.phone_style .dot span {
+    padding-left: 0.55rem;
+    display: block;
+}
+.phone_style .dot i {
+    width: 0.25rem;
+    height:0.25rem;
+    border-radius: 50%;
+    background-color: #000;
+    display:block;
+    float: left;
+    margin-top: 0.3rem;
+}
+
+.phone_style .contact_content {
+    width: 17.25rem;
+    margin:2.05rem auto 0;
+    color: #333;
+}
+.phone_style .contact_title {
+    font-size: 1.1rem;
+    width:7.3rem;
+    text-align: left;
+}
+.phone_style .contact_head {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    line-height: 1.1rem;
+}
+.phone_style .contact_text {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+.phone_style .head_top1 {
+    margin-top: 1.5rem;
+}
+.phone_style .contact_content .email {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+body {
+    font-family: SF UI Text;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.main {
+	width:100%;
+	position: relative;
+	height:100%;
+}
+.logo_img {
+    width:6rem;
+	height:4.25rem;
+	background-size: 100%;
+	position: absolute;
+	top:3rem;
+	left:50%;
+	margin-left: -3rem;
+}
+.pix_version {
+	color:#9B9B9B;
+	font-family: AppleSystemUIFont;
+	font-size: 0.7rem;
+	position: absolute;
+	top:7.65rem;
+	left:50%;
+	width:2.5rem;
+	margin-left: -1.25rem;
+	height:1.25rem;
+	line-height: 1.25rem;
+}
+.jump_label {
+	position:absolute;
+	top:10.95rem;
+	width:100%;
+	border-top:1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #fff;
+	
+}
+.label {
+    border-bottom: 1px solid #E1E1E1;
+    color:#333;
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: -0.45px;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+    padding-left: 0.8rem;
+}
+.last_label {
+	border-bottom: none;
+}
+.arrow-right { 
+  width: 0.5rem;
+  height: 0.45rem;
+  overflow:hidden;
+  zoom: 1;
+  position: absolute;
+  border-right: 2px solid #A5A7AA;
+  border-top: 2px solid #A5A7AA;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: #fff;
+  right:0.8rem;
+  top:0.8rem;
+} 
+footer {
+	width:4rem;
+	position: absolute;
+	top:31.25rem;
+	left:50%;
+	margin-left: -1.9rem;
+	color:#9B9B9B;
+	font-size: 0.65rem;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+

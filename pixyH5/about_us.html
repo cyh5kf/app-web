@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <title>ABOUT US</title>
+    <script src="js/font_lct.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/about_us.css">
+</head>
+
+<body>
+   <div class="main">
+    <img class="logo_img" src="images/ic_logo_about.png">
+    <p class="pix_version">pixy 1.0</p>
+    <div class="jump_label">
+      <div class="label" onclick="community()">
+        Community Guidelines
+        <div class="arrow-right"></div>
+      </div>
+      <div class="label" onclick="Privacy()">
+        Privacy Policy
+        <div class="arrow-right"></div>
+      </div>
+      <div class="label" onclick="termsService()">
+        Terms of Service
+        <div class="arrow-right"></div>
+      </div>
+      <div class="label last_label" onclick="contactUs()">
+        Contact Us
+        <div class="arrow-right"></div>
+      </div>
+    </div>
+    <footer>©2016 PIXY</footer>
+   </div>
+
+   <script>
+       function community() {
+           window.location.href="communityGuidelines.html";
+       }
+
+       function Privacy() {
+           window.location.href="privacyPolicy.html";
+       }
+
+       function termsService() {
+           window.location.href="termsService.html";
+       }
+
+       function contactUs() {
+           console.log("Contact Us");
+       }
+   </script>
+</body>
+
+</html>
